@@ -230,3 +230,36 @@
 .ad-fee-result .nav-tabs .nav-item {
   margin-right: 20px;
 }
+.wrapper-admiss-2 .lable-big {
+  position: relative;
+}
+.wrapper-admiss-2 .header {
+  background: var(--dask-blue) url(../images/admiss-2/banner-online-payment.png)
+    top center;
+  height: 312px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.wrapper-admiss-2 .lable-big {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 45px;
+  margin-bottom: 0;
+}
+.wrapper-admiss-2 .page-content {
+  margin-top: -140px;
+  position: relative;
+  z-index: 1;
+}
+.wrapper-admiss-2 .fee-form-wrap {
+  display: flex;
+  gap: 40px;
+  padding-bottom: 30px;
+}
+.wrapper-admiss-2 .fee-form-wrap .image {
+  flex-shrink: 0;
+}
+.wrapper-admiss-2 .ad-fee-form {
+  flex: 1;
+}
