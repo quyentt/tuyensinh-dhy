@@ -88,7 +88,63 @@
     width: 260px;
   }
 }
+@media (max-width: 1140px) {
+  .menu {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    left: -100%;
 
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+  }
+  .menu .header-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    height: 100%;
+  }
+
+  .header-group .btn-login-home {
+    border: var(--dask-blue) solid 1px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header-group .main-menu {
+    flex-direction: column;
+    gap: 30px;
+    min-width: auto !important;
+  }
+  .show .header-group .main-menu li {
+    margin-bottom: 0;
+  }
+  .show .header-group .main-menu a {
+    margin-left: 0;
+    color: var(--dask-blue) !important;
+    margin: 0;
+  }
+  .menu-close {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: var(--dask-blue);
+    font-size: 24px;
+  }
+  .header-inner .menu-icon {
+    display: block;
+    color: #ffffff;
+    font-size: 24px;
+    margin-right: 10px;
+    margin-left: auto;
+  }
+  .menu.show {
+    left: 0;
+  }
+}
 @media (max-width: 1024px) {
   .lephixettuyen {
     margin-top: 25px;
@@ -117,7 +173,7 @@
     position: relative;
     bottom: 0px;
     font-size: 28px;
-    margin-top: 15px;
+    margin-top: 75px;
     font-weight: 600;
     text-align: center;
   }
@@ -313,7 +369,7 @@
     border-color: #e1e1e1;
   }
   .logo-top {
-    text-align: center;
+    text-align: left;
     margin-top: 0px;
   }
   .logo-top img {

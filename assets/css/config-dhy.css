@@ -263,32 +263,3 @@
 .wrapper-admiss-2 .ad-fee-form {
   flex: 1;
 }
-
-.header-group {
-  display: flex;
-  align-items: center;
-  padding-top: 25px;
-}
-.header-inner {
-  display: flex;
-  align-items: center;
-}
-.header-inner .menu-icon {
-  display: none;
-}
-.header-inner .menu {
-  margin-left: auto;
-}
-.header-inner .menu .header-group {
-  padding-top: 0;
-}
-.main-menu {
-  display: flex;
-}
-.btn-admission.btn-orange {
-  background: var(--orange);
-  margin-right: 0;
-}
-.menu-close {
-  display: none;
-}
